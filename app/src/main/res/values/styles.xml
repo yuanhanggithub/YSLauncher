@@ -1,0 +1,39 @@
+<resources>
+
+     <style name="Theme" parent="android:Theme.Wallpaper">
+	     <item name="android:windowNoTitle">true</item>
+		 <item name="android:windowFullscreen">true</item>
+         <item name="android:windowTranslucentStatus">true</item>
+         <item name="android:windowTranslucentNavigation">true</item>
+	 </style>
+
+    <style name="button_main_launcher">
+        <item name="android:layout_width">@dimen/main_bottom_size</item>
+        <item name="android:layout_height">@dimen/main_bottom_size</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <!--1366*768    1200 *800-->
+    <style name="button_main_launcher1">
+        <item name="android:layout_width">220dp</item>
+        <item name="android:layout_height">220dp</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <!--1980*1200-->
+    <style name="button_main_launcher2">
+        <item name="android:layout_width">320dp</item>
+        <item name="android:layout_height">320dp</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="button_main_launcherp">
+        <item name="android:layout_width">@dimen/main_bottom_size_port</item>
+        <item name="android:layout_height">@dimen/main_bottom_size_port</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+</resources>

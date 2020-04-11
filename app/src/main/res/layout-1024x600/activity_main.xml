@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper_canyon"
+    tools:context=".MainActivity">
+
+    <include layout="@layout/statusbar" />
+
+    <LinearLayout
+        android:id="@+id/layout_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp">
+
+        <TextView
+            android:id="@+id/time_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="上午"
+            android:textColor="@color/whiteColor"
+            android:textSize="48sp" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleX="0.85"
+            android:text="12:39"
+            android:textColor="@color/whiteColor"
+            android:textSize="148sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="70dp">
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4月27号"
+                android:textColor="@color/whiteColor"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/week"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="星期六"
+                android:textColor="@color/whiteColor"
+                android:textSize="36sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_time"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp">
+
+        <ImageView
+            android:id="@+id/application"
+            style="@style/button_main_launcher" />
+
+        <ImageView
+            android:id="@+id/setting"
+            style="@style/button_main_launcher"
+            android:layout_toRightOf="@+id/application" />
+
+        <ImageView
+            android:id="@+id/file"
+            style="@style/button_main_launcher"
+            android:layout_toRightOf="@+id/setting" />
+
+        <ImageView
+            android:id="@+id/explorer"
+            style="@style/button_main_launcher"
+            android:layout_toRightOf="@+id/file" />
+
+    </RelativeLayout>
+</RelativeLayout>

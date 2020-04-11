@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="app_textsize">24sp</dimen>
+    <dimen name="app_height">200dp</dimen>
+
+    <dimen name="main_bottom_size">300dp</dimen>
+    <dimen name="main_bottom_size_port">230dp</dimen>
+
+    <dimen name="time_margin_top">200dp</dimen>
+    <dimen name="time_margin_top_port">400dp</dimen>
+
+    <dimen name="margin_time_port">220dp</dimen>
+
+    <dimen name="time_size">148sp</dimen>
+    <dimen name="month_size">36sp</dimen>
+</resources>
